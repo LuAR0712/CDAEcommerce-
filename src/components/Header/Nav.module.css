@@ -1,0 +1,129 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.4s;
+    width: 100%;
+    height: auto;
+}
+
+.navFooter {
+    background-color:#4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.navFooter h2 {
+    color:black;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+.navFooter ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0px 10px;
+}
+
+.navFooter li {
+    color: rgb(9, 9, 9);
+    margin: 5px;
+}
+
+.navFooter img {
+    width: 50px;
+}
+
+.active {
+    background: rgb(8, 8, 8);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.linkNav {
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin: 0px 10px;
+    background-color: rgb(146, 187, 230);
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+
+.linkFooter {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.linkNav:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    cursor: pointer;
+    border: 3px solid rgb(55, 145, 241);
+    border-radius: 7px;
+    padding: 1px;
+    border-style:groove;
+}
+
+.favCart {
+    display: flex;
+    align-items: center;
+    border-left: 4px solid rgb(55, 145, 241);
+    border-right: 4px solid rgb(55, 145, 241);
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+.fav {
+    text-decoration: none;
+    color: rgb(55, 145, 241);
+    border: 2px solid rgb(55, 145, 241);
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 5px;
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+}
+
+.fav:hover {
+    color: white;
+    background-color: rgb(55, 145, 241);
+}
+
+.logoCart {
+    width: 30px;
+}
+
+.img {
+    text-decoration: none;
+    color: black;
+}
